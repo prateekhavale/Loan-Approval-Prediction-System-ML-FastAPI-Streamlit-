@@ -1,5 +1,5 @@
 
-# 🏦 Loan Approval Prediction System (ML + FastAPI + Streamlit)
+# Loan Approval Prediction System (ML + FastAPI + Streamlit)
 
 An end-to-end **Machine Learning system** that predicts whether a loan application will be approved or not based on applicant details.
 
@@ -7,9 +7,9 @@ Built using **Scikit-learn Pipelines**, **Logistic Regression**, and deployed wi
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔍 Loan Approval Prediction
+### Loan Approval Prediction
 
 * Enter applicant details
 * Get instant prediction:
@@ -17,7 +17,7 @@ Built using **Scikit-learn Pipelines**, **Logistic Regression**, and deployed wi
   * Loan Not Approved
 * Probability score for confidence
 
-### ⚙️ End-to-End ML Pipeline
+### End-to-End ML Pipeline
 
 * Data preprocessing using pipelines
 * Automatic handling of:
@@ -25,26 +25,26 @@ Built using **Scikit-learn Pipelines**, **Logistic Regression**, and deployed wi
   * Feature scaling
   * Encoding categorical variables
 
-### 📊 Hyperparameter Optimization
+### Hyperparameter Optimization
 
 * GridSearchCV for best model selection
 * Multiple combinations of:
   * Regularization
   * Solvers
 
-### 🧠 Robust Model Training
+### Robust Model Training
 
 * Logistic Regression with class balancing
 * Stratified cross-validation
 * Prevents bias in predictions
 
-### ⚡ API Deployment
+### API Deployment
 
 * FastAPI backend
 * Real-time prediction endpoint
 * JSON-based request/response
 
-### 🎨 Interactive UI
+### Interactive UI
 
 * Streamlit frontend
 * Easy-to-use input form
@@ -52,7 +52,7 @@ Built using **Scikit-learn Pipelines**, **Logistic Regression**, and deployed wi
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User Input (Streamlit UI)
@@ -70,7 +70,7 @@ Displayed in UI
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 * **Frontend**: Streamlit  
 * **Backend API**: FastAPI  
@@ -80,18 +80,10 @@ Displayed in UI
 
 ---
 
-## 📦 Installation
+## Installation
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/loan-prediction.git
-cd loan-prediction
-```
-
----
-
-### 2. Create virtual environment
+### 1. Create virtual environment
 
 ```bash
 python -m venv venv
@@ -101,7 +93,7 @@ venv\Scripts\activate      # Windows
 
 ---
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -109,7 +101,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ### Step 1: Train the Model
 
@@ -135,7 +127,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 💡 Usage
+## Usage
 
 ### Step 1: Enter Applicant Details
 
@@ -155,7 +147,7 @@ Output includes:
 
 ---
 
-## 🧪 Example Inputs
+## Example Inputs
 
 ```
 ApplicantIncome: 5000
@@ -173,7 +165,7 @@ Property_Area: Urban
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Model performance depends on dataset quality  
 * Limited to structured tabular data  
@@ -181,7 +173,7 @@ Property_Area: Urban
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * [ ] Deploy on cloud (AWS / GCP / Render)  
 * [ ] Add Docker support  
@@ -202,7 +194,7 @@ Property_Area: Urban
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!  
 Feel free to open issues or submit pull requests.
@@ -210,7 +202,7 @@ Feel free to open issues or submit pull requests.
 ---
 
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * Scikit-learn  
 * FastAPI  
@@ -220,7 +212,7 @@ Feel free to open issues or submit pull requests.
 
 ---
 
-## ⭐ If you like this project
+## If you like this project
 
 Give it a ⭐ on GitHub!
 
