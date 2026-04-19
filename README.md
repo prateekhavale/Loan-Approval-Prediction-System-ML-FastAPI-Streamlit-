@@ -173,17 +173,7 @@ Property_Area: Urban
 
 ---
 
-## Future Improvements
-
-* [ ] Deploy on cloud (AWS / GCP / Render)  
-* [ ] Add Docker support  
-* [ ] Improve UI/UX  
-* [ ] Add model explainability (SHAP)  
-* [ ] Real-time data integration  
-
----
-
-## 🧠 What This Project Demonstrates
+## What This Project Demonstrates
 
 * End-to-end ML pipeline design  
 * Feature engineering with pipelines  
@@ -212,8 +202,8 @@ Feel free to open issues or submit pull requests.
 
 ---
 
-## If you like this project
+## Support
 
-Give it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub!
 
 ---
