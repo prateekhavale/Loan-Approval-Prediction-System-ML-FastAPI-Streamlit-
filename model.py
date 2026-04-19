@@ -48,12 +48,12 @@ def fix_dtypes(df):
 df = fix_dtypes(df)
 
 
-# Step 5: Target Encoding (CRITICAL)
+# Step 5: Target Encoding
 df['Loan_Status'] = df['Loan_Status'].map({'Y': 1, 'N': 0})
 df = df.dropna(subset=['Loan_Status'])
 
 
-# Step 6: Split Data (Stratified)
+# Step 6: Split Data
 X = df.drop('Loan_Status', axis=1)
 y = df['Loan_Status']
 
